@@ -1,0 +1,89 @@
+header{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0a83e;
+}
+li.sin-viñeta {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav ul, ul {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.imagen-completa {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+.icono-destacado {
+  text-align: center;
+  margin-top: 40px;
+}
+h1 {
+  text-align: center;
+}
+p.etiquetas {
+  text-align: center;
+}
+.separador {
+  margin:15px;
+}
+
+.productos {
+    display: flex;           
+    justify-content: center;  
+    gap: 40px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.seccion-contacto {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 350px;
+  margin:auto;
+}
+.seccion-contacto h2 {
+  margin-bottom: 20px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.formulario input {
+  background-color: #3e2723;
+  color: white;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+.contenedor-botones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+.contenedor-botones button {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.btn-reset {
+  background-color: #9e9e9e;
+}
+
+.btn-enviar {
+  background-color: #f3a63f;
